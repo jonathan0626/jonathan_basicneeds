@@ -30,7 +30,7 @@ start jonathan_basicneeds
 
 可更改的部分接列於 Config.lua裡面，皆有詳細使用說明
 
-You can change many thing in Config.lua .
+You can change many things in Config.lua .
 
 Be free to rewrite the script ~
 
