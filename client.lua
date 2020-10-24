@@ -1,5 +1,19 @@
 ESX = nil
 
+Citizen.CreateThread(function()
+	while ESX == nil do
+		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+		Citizen.Wait(0)
+	end
+
+	while ESX.GetPlayerData().job == nil do
+		Citizen.Wait(100)
+	end
+
+	PlayerLoaded = true
+	ESX.PlayerData = ESX.GetPlayerData()
+end)
+
 RegisterNetEvent('jonathan_basicneeds:onEatpill')
 AddEventHandler('jonathan_basicneeds:onEatpill', function(prop_name)
 	if not IsAnimated then
@@ -24,21 +38,6 @@ AddEventHandler('jonathan_basicneeds:onEatpill', function(prop_name)
 		end)
 
 	end
-end)
-
-
-Citizen.CreateThread(function()
-	while ESX == nil do
-		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-		Citizen.Wait(0)
-	end
-
-	while ESX.GetPlayerData().job == nil do
-		Citizen.Wait(100)
-	end
-
-	PlayerLoaded = true
-	ESX.PlayerData = ESX.GetPlayerData()
 end)
 
 
