@@ -1,5 +1,8 @@
 # jonathan_basicneeds Version 1.0
 
+This script can let you eat drugs for replenishing the amount of blood or the value of shield.
+此插件可以讓你透過吃藥品來補血或補充護盾值
+
 [1] 此插件為Jonathan Peng撰寫
 
 [2] 聯絡信箱 : arroyoisalsogood@gmail.com
