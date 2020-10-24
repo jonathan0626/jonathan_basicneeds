@@ -50,7 +50,7 @@ local health = GetEntityHealth(playerPed)
 local maxhealth = GetEntityMaxHealth(playerPed)
 
 if health >0 and health  < maxhealth then 
-local heal = math.min(maxhealth, math.floor(health + (maxhealth /(2*(1/Config.heal1)))))
+local heal = math.min(maxhealth, math.floor(health + (maxhealth /(2*(1/(Config.heal1*0.01))))))
 
 print("補血") 
 
@@ -73,7 +73,7 @@ local health = GetEntityHealth(playerPed)
 local maxhealth = GetEntityMaxHealth(playerPed)
 
 if health >0 and health  < maxhealth then 
-local heal = math.min(maxhealth, math.floor(health + (maxhealth /(2* (1/Config.heal2)))))
+local heal = math.min(maxhealth, math.floor(health + (maxhealth /(2* (1/(Config.heal2*0.01))))))
 
 print("補血")
 
