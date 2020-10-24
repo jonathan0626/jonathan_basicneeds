@@ -29,3 +29,5 @@ start jonathan_basicneeds
 
 可更改的部分接列於 Config.lua裡面，皆有詳細使用說明
 
+Be free to rewrite the script !
+
