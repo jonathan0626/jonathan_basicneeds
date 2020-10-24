@@ -6,15 +6,13 @@
 
 [1] 作者是我啦 (The script was written by Jonathan Peng.)
 
-[2] My email address : arroyoisalsogood@gmail.com
+[2] 歡迎自由改寫 (Be free to rewrite the script ~)
 
-[3] 歡迎自由改寫 (Be free to rewrite the script ~)
+[3] 嚴禁販賣 (This script is not allowed to be sold !!!)
 
-[4] 嚴禁販賣 (This script is not allowed to be sold !!!)
+[4] 可更改的部分接列於 Config.lua裡面，皆有詳細使用說明 (You can change many things in Config.lua .)
 
-[5] 可更改的部分接列於 Config.lua裡面，皆有詳細使用說明 (You can change many things in Config.lua .)
-
-[6] 持續更新中 (Keep updating !)
+[5] 持續更新中 (Keep updating !)
 
 
 # 安裝方法(Installation)
