@@ -11,7 +11,7 @@
 [5] 此為版本1.0，之後會陸續更新
 
 
-# 安裝方法
+# 安裝方法(Installation)
 
 [1] 丟到resorce資料夾
 
@@ -25,9 +25,13 @@ start jonathan_basicneeds
 [3] 導入 物品sql 
 
 
-# 額外須知
+# 額外須知(Important!!!)
 
 可更改的部分接列於 Config.lua裡面，皆有詳細使用說明
 
-Be free to rewrite the script !
+You can change many thing in Config.lua .
+
+Be free to rewrite the script ~
+
+This script is not allowed to be sold !!!
 
